@@ -1,5 +1,7 @@
 <p align="center"><img style="width:600px;" src="https://i.imgur.com/IIeTgW7.png" align="center"></p>
 
+#### [Live Site Hosted On Netlify](https://slip.netlify.com/)
+
 ------------
 
 SLIP je platforma koja omogućava ljudima sa invaliditetom lakši bez-kontaktni pristup osnovnim servisima i potrebama.
