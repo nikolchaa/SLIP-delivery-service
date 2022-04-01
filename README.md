@@ -9,12 +9,10 @@ SLIP je platforma koja omogućava ljudima sa invaliditetom lakši bez-kontaktni 
 <br>
 
 ### Šta SLIP može (tehnički aspekt)?
-<p width="308px">
 - SLIP je povezan sa Firebase bazom podataka. Administratori na Firebase-u mogu iste sekunde da pristupe podacima poslatim u narudžbini.
 - SLIP se sastoji od veoma prostih elemenata. Nema Bootstrap-a i drugih bloat-ova. Svaki element je ručno izrađen.
 - Brz i pristupačan UI, za lako korišćenje.
 - Responsive dizajn namenjen <br>za desktop i mobilne uređaje.
-</p>
 
 <br>
 
@@ -23,21 +21,17 @@ SLIP je platforma koja omogućava ljudima sa invaliditetom lakši bez-kontaktni 
 <br>
 
 ### Kako je SLIP izrađen?
-<p width="308px">
 - SLIP je izrađen koristeći grid, flex i razne druge osnovne tehnologije ugrađene u CSS. 
 - Korišćeni su grafički elementi koji su isključivo napravljeni za SLIP, a fontovi koji su korišćeni su napravljeni za besplatno korišćenje u komercijalne svrhe.
 - Takođe, SLIP se sastoji i od JS-a.
-</p>
   
 <br>
 
 ### Namena SLIP-a?
-<p width="308px">
 - SLIP je zamišljen kao platforma koja omogućava licima sa invaliditetom brži i lakši pristup svemu.
 - Kada korisnik SLIP-a napravi porudžbinu, ona je prosleđena timu nadležnom za regulaciju narudžbina.
 - Nakon što operater primi porudžbinu, u što kraćem roku kontaktira korisnika SLIP servisa <br>i potvrdi narudžbinu.
 - Uplata bi se vršila pri <br>dostavi, a cene bi bile daleko <br>niže nego obično.
-</p>
   
 <br>
 
@@ -46,11 +40,10 @@ SLIP je platforma koja omogućava ljudima sa invaliditetom lakši bez-kontaktni 
 <br>
 
 ### Kako SLIP aplikacija izgleda?
-<p width="308px">
 - SLIP ima moderan i prost dizajn. Veoma je pristupačan za korišćenje.
 - Vizuelni elementi su prilagođeni svim grupama ljudi. Dugmići su veliki, interfejs je prost, a samo korišćenje aplikacije je VEOMA lako.
-</p>
-  
+
+
 <br><br><br><br><br>
 
 ------------
