@@ -36,7 +36,7 @@ SLIP je platforma koja omogućava ljudima sa invaliditetom lakši bez-kontaktni 
 - SLIP je zamišljen kao platforma koja omogućava licima sa invaliditetom brži i lakši pristup svemu.
 - Kada korisnik SLIP-a napravi porudžbinu, ona je prosleđena timu nadležnom za regulaciju narudžbina.
 - Nakon što operater primi porudžbinu, u što kraćem roku kontaktira korisnika SLIP servisa <br>i potvrdi narudžbinu.
-- Uplata bi se vršila pri dostavi, a cene bi bile daleko niže nego obično.
+- Uplata bi se vršila pri <br>dostavi, a cene bi bile daleko <br>niže nego obično.
 </p>
   
 <br>
