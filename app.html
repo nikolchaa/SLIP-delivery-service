@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/logo/favicon.ico" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/app/app.css" />
+    <link rel="stylesheet" href="css/app/queries.css" />
+    <title>SLIP</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="upper-header">
+        <img src="img/logo/SLIP_LOGO_SMALL.webp" alt="" class="logo" />
+        <i
+          class="fa-solid fa-house header-icons"
+          onclick="location.href='index.html'"
+        ></i>
+      </div>
+      <div class="lower-header">
+        <i
+          class="fa-solid fa-utensils header-icons"
+          onclick="window.scrollTo(0, 0);"
+          onclick="openModal(foodModal)"
+        ></i>
+        <i
+          class="fa-solid fa-car header-icons"
+          onclick="window.scrollTo(0, 0);"
+          onclick="openModal(transpModal)"
+        ></i>
+        <i
+          class="fa-solid fa-user-nurse header-icons"
+          onclick="window.scrollTo(0, 0);"
+          onclick="openModal(docModal)"
+        ></i>
+        <i
+          class="fa-solid fa-ellipsis header-icons"
+          onclick="window.scrollTo(0, 0);"
+          onclick="openModal(otherModal)"
+        ></i>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="upper-main">
+        <div class="grid grid--2-col bb">
+          <div class="f-col">
+            <h2 class="time-welcome">Dobar dan</h2>
+            <h3 class="welcome-text">Dobrodošli u SLIP</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="lower-main">
+        <div class="grid grid--2-col mb-5">
+          <div class="col food" onclick="window.scrollTo(0, 0);">
+            <h2 class="grid-section_text">Hrana</h2>
+          </div>
+
+          <div class="col transp" onclick="window.scrollTo(0, 0);">
+            <h2 class="grid-section_text">Prevoz</h2>
+          </div>
+        </div>
+
+        <div class="grid grid--2-col mb-5">
+          <div class="col doc" onclick="window.scrollTo(0, 0);">
+            <h2 class="grid-section_text">Lekarska Pomoć</h2>
+          </div>
+
+          <div class="col clean" onclick="window.scrollTo(0, 0);">
+            <h2 class="grid-section_text">Ostale usluge</h2>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- MODALS -->
+
+    <form action="" id="orderForm">
+      <div class="modal modal-bg other">
+        <div class="container">
+          <i class="fa-solid fa-xmark close"></i>
+          <div>
+            <h2 class="modal-title">Ostale usluge</h2>
+
+            <div class="grid grid--2-col mt-5">
+              <label>
+                <span class="imp"><sup>*</sup></span> Ime
+              </label>
+              <input id="ime" type="text" name="ime" class="input other_ime" />
+
+              <label>
+                <span class="imp"><sup>*</sup></span> Prezime
+              </label>
+              <input
+                id="prezime"
+                type="text"
+                name="prezime"
+                class="input other_prezime"
+              />
+
+              <label>
+                <span class="imp"><sup>*</sup></span> Adresa
+              </label>
+              <input
+                id="adresa"
+                type="text"
+                name="adresa"
+                class="input other_adresa"
+              />
+
+              <label>
+                <span id="other_tip" class="imp"><sup>*</sup></span> Tip usluge
+              </label>
+              <select class="input other_usluga">
+                <option value=""></option>
+                <option value="CiscKuce">Čišćenje kuće</option>
+                <option value="CiscDvor">Čisćenje dvorišta</option>
+                <option value="KosTrav">Košenje trave</option>
+                <option value="ElektrUsl">Električarske usluge</option>
+                <option value="VodoinsUsl">Vodoinstalaterske usluge</option>
+              </select>
+
+              <label>
+                <span class="imp"><sup>*</sup></span> Telefon
+              </label>
+              <input
+                id="tel"
+                type="tel"
+                name="telefon"
+                class="input other_tel"
+              />
+            </div>
+          </div>
+          <span class="success">Uspesno se poslali zahtev!</span>
+          <span class="fail">Niste popunili sva polja!</span>
+
+          <button type="submit" class="btn main-btn other_check">
+            Prosledi
+          </button>
+        </div>
+      </div>
+
+      <div class="modal modal-bg food-m">
+        <div class="container">
+          <i class="fa-solid fa-xmark close"></i>
+          <div>
+            <h2 class="modal-title">Hrana</h2>
+
+            <div class="grid grid--2-col mt-5">
+              <label>
+                <span class="imp"><sup>*</sup></span> Ime
+              </label>
+              <input id="ime" type="text" name="ime" class="input food_ime" />
+
+              <label>
+                <span class="imp"><sup>*</sup></span> Prezime
+              </label>
+              <input
+                id="prezime"
+                type="text"
+                name="prezime"
+                class="input food_prezime"
+              />
+
+              <label>
+                <span class="imp"><sup>*</sup></span> Adresa
+              </label>
+              <input
+                id="adresa"
+                type="text"
+                name="adresa"
+                class="input food_adresa"
+              />
+
+              <label>
+                <span class="imp"><sup>*</sup></span> Restoran
+              </label>
+              <select id="food_tip" class="input food_usluga">
+                <option value=""></option>
+                <option value="LaStrega">LaStrega</option>
+                <option value="Caribic">Caribic Pizza</option>
+                <option value="NightNDay">Night & Day</option>
+                <option value="BigMama">Big Mama Roštilj</option>
+                <option value="Carica">Carica Roštilj</option>
+                <option value="KFC">KFC</option>
+                <option value="Sofronije">Sofronije</option>
+                <option value="Milky">Milky</option>
+              </select>
+
+              <label>
+                <span class="imp"><sup>*</sup></span> Telefon
+              </label>
+              <input
+                id="tel"
+                type="tel"
+                name="telefon"
+                class="input food_tel"
+              />
+            </div>
+          </div>
+
+          <span class="success">Uspesno se poslali zahtev!</span>
+          <span class="fail">Niste popunili sva polja!</span>
+          <button type="submit" class="btn main-btn check food_check">
+            Prosledi
+          </button>
+        </div>
+      </div>
+
+      <div class="modal modal-bg prevoz">
+        <div class="container">
+          <i class="fa-solid fa-xmark close"></i>
+          <div>
+            <h2 class="modal-title">Prevoz</h2>
+
+            <div class="grid grid--2-col mt-5">
+              <label>
+                <span class="imp"><sup>*</sup></span> Ime
+              </label>
+              <input id="ime" type="text" name="ime" class="input prevoz_ime" />
+
+              <label>
+                <span class="imp"><sup>*</sup></span> Prezime
+              </label>
+              <input
+                id="prezime"
+                type="text"
+                name="prezime"
+                class="input prevoz_prezime"
+              />
+
+              <label>
+                <span class="imp"><sup>*</sup></span> Adresa
+              </label>
+              <input
+                id="adresa"
+                type="text"
+                name="adresa"
+                class="input prevoz_adresa"
+              />
+
+              <label>
+                <span class="imp"><sup>*</sup></span> Destinacija
+              </label>
+              <input
+                type="text"
+                name="destinacija"
+                id="prevoz_destinacija"
+                class="input prevoz_usluga"
+              />
+
+              <label>
+                <span class="imp"><sup>*</sup></span> Telefon
+              </label>
+              <input
+                id="tel"
+                type="tel"
+                name="telefon"
+                class="input prevoz_tel"
+              />
+            </div>
+          </div>
+
+          <span class="success">Uspesno se poslali zahtev!</span>
+          <span class="fail">Niste popunili sva polja!</span>
+          <button type="submit" class="btn main-btn prevoz_check">
+            Prosledi
+          </button>
+        </div>
+      </div>
+
+      <div class="modal modal-bg doc-m">
+        <div class="container">
+          <i class="fa-solid fa-xmark close"></i>
+          <div>
+            <h2 class="modal-title">Lekarska Pomoć</h2>
+
+            <div class="grid grid--2-col mt-5">
+              <label>
+                <span class="imp"><sup>*</sup></span> Ime
+              </label>
+              <input id="ime" type="text" name="ime" class="input doc_ime" />
+
+              <label>
+                <span class="imp"><sup>*</sup></span> Prezime
+              </label>
+              <input
+                id="prezime"
+                type="text"
+                name="prezime"
+                class="input doc_prezime"
+              />
+
+              <label>
+                <span class="imp"><sup>*</sup></span> Adresa
+              </label>
+              <input
+                id="adresa"
+                type="text"
+                name="adresa"
+                class="input doc_adresa"
+              />
+
+              <label>
+                <span class="imp"><sup>*</sup></span> Tip usluge
+              </label>
+              <select id="doc_tip" class="input doc_usluga">
+                <option value=""></option>
+                <option value="Kardiolog">Kardiolog</option>
+                <option value="Pedijatar">Pedijatar</option>
+                <option value="Pulmolog">Pulmolog</option>
+                <option value="Psihijatar">Psihijatar</option>
+              </select>
+
+              <label>
+                <span class="imp"><sup>*</sup></span> Telefon
+              </label>
+              <input id="tel" type="tel" name="telefon" class="input doc_tel" />
+            </div>
+          </div>
+
+          <span class="success">Uspesno se poslali zahtev!</span>
+          <span class="fail">Niste popunili sva polja!</span>
+          <button type="submit" class="btn main-btn doc_check">Prosledi</button>
+        </div>
+      </div>
+    </form>
+
+    <div class="overlay"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="js/app/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,203 @@
+.main {
+  background-color: var(--white-color);
+  padding-bottom: 15rem;
+}
+.main .container {
+  max-width: 140rem;
+}
+.section-header {
+  color: var(--gray-color);
+  max-width: 40vw;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  opacity: 0;
+  transition: 0.7s ease-in-out;
+}
+.section-desc {
+  text-transform: uppercase;
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 1.8rem;
+  letter-spacing: -0.5px;
+}
+.section-title {
+  font-size: 4rem;
+  line-height: 1.3;
+}
+.hero-section {
+  position: relative;
+  background-image: url(../img/hero-girl.webp);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  color: var(--white-color);
+}
+.hero-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  gap: 10rem;
+  transform: translateX(-300px);
+  transition: all 0.5s ease-in-out;
+}
+.hero-section_intro {
+  padding-top: 5rem;
+  width: 75rem;
+  transition: all 1s ease-in-out;
+  animation: 2s intro;
+}
+.show-intro {
+  transform: translateX(0) !important;
+  opacity: 1 !important;
+}
+.hero-title {
+  font-size: 5rem;
+  font-weight: 800;
+}
+.hero-subtitle {
+  font-size: 3rem;
+}
+.hero-section .main-btn {
+  font-size: 3.5rem;
+  padding: 1.3rem 2.6rem;
+  animation: 2s intro;
+}
+@keyframes intro {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.lm-anim {
+  opacity: 0;
+  transition: 0.1s ease-in-out;
+}
+.learn-more {
+  max-width: 100vw;
+  padding: 10rem 0;
+  border-bottom: 1px solid #ddd;
+}
+.img-holder {
+  text-align: center;
+}
+.learn-more_img {
+  width: 50%;
+}
+.text-holder {
+  width: 70%;
+}
+.feature-title {
+  font-size: 2.5rem;
+  color: var(--accent-color);
+  margin-bottom: 1.5rem;
+}
+.feature-desc {
+  color: var(--gray-color);
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.testemonial-section {
+  border-bottom: 1px solid #ddd;
+  margin: 10rem 0;
+  padding-bottom: 10rem;
+}
+.testemonial-section .col {
+  border-radius: 10px;
+  box-shadow: 0 10px 20px #0000004d;
+}
+.wrapper_testemonial {
+  padding: 3rem;
+}
+.user {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.img-box_testemonial img {
+  border: 1px solid var(--white);
+  border-radius: 50%;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+.name_testemonial,
+.title_testemonial {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--white-color);
+}
+.title_testemonial {
+  margin-bottom: 0.5rem;
+}
+.profession_testemonial,
+.text_testemonial {
+  font-size: 1.4rem;
+  color: #f0f0eb;
+}
+.card-1 {
+  background-color: var(--main-color);
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+.card-2 {
+  background-color: var(--accent-color);
+  grid-row: 1/2;
+}
+.card-2 .profession_testemonial,
+.card-2 .text_testemonial {
+  font-size: 1.4rem;
+  color: var(--accent-color-shade);
+}
+.card-3 {
+  grid-row: 1/3;
+}
+.card-3 .name_testemonial,
+.card-3 .title_testemonial {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: gray;
+}
+.card-3 .profession_testemonial,
+.card-3 .text_testemonial {
+  font-size: 1.4rem;
+  color: #ccc;
+}
+.card-4 {
+  grid-row: 2/3;
+}
+.card-5 {
+  grid-row: 2/3;
+  grid-column: 2/4;
+}
+.gallery .container {
+  max-width: 140rem;
+}
+.pre-footer {
+  background-image: url(../img/bg_footer.webp);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem 0;
+}
+.pre-footer .section-header {
+  text-align: center;
+}
+.pre-footer .section-title {
+  color: var(--white-color);
+  font-size: 3rem;
+  font-weight: 600;
+}
+.pre-footer .main-btn {
+  font-size: 3rem;
+  padding: 1.3rem 2.6rem;
+}
