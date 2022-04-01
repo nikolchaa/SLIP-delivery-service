@@ -13,7 +13,7 @@ SLIP je platforma koja omogućava ljudima sa invaliditetom lakši bez-kontaktni 
 - SLIP je povezan sa Firebase bazom podataka. Administratori na Firebase-u mogu iste sekunde da pristupe podacima poslatim u narudžbini.
 - SLIP se sastoji od veoma prostih elemenata. Nema Bootstrap-a i drugih bloat-ova. Svaki element je ručno izrađen.
 - Brz i pristupačan UI, za lako korišćenje.
-- Responsive dizajn namenjen za desktop i mobilne uređaje.
+- Responsive dizajn namenjen <br>za desktop i mobilne uređaje.
 </p>
 
 <br>
@@ -35,7 +35,7 @@ SLIP je platforma koja omogućava ljudima sa invaliditetom lakši bez-kontaktni 
 <p width="308px">
 - SLIP je zamišljen kao platforma koja omogućava licima sa invaliditetom brži i lakši pristup svemu.
 - Kada korisnik SLIP-a napravi porudžbinu, ona je prosleđena timu nadležnom za regulaciju narudžbina.
-- Nakon što operater primi porudžbinu, u što kraćem roku kontaktira korisnika SLIP servisa i potvrdi narudžbinu.
+- Nakon što operater primi porudžbinu, u što kraćem roku kontaktira korisnika SLIP servisa <br>i potvrdi narudžbinu.
 - Uplata bi se vršila pri dostavi, a cene bi bile daleko niže nego obično.
 </p>
   
