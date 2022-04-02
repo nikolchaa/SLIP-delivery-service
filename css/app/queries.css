@@ -1,1 +1,64 @@
-@media (max-width: 113.62em){.modal-title{font-size:4vw}}@media (max-width: 105.8125em){.modal-title{font-size:3vw}label{font-size:2rem}}@media (max-width: 71.1875em){.modal-title{font-size:3vw}.modal .grid--2-col{grid-template-columns:repeat(4,1fr)}.modal{width:80vw;height:70vh}}@media (max-width: 49.5625em){.modal .grid--2-col{grid-template-columns:1fr}.modal .grid{gap:0}.modal{height:90vh}.input{height:40px}}@media (max-width: 56.12em){.modal-title{font-size:5vw}.grid--2-col{grid-template-columns:1fr}html{font-size:60%}}@media (max-width: 33.5625em){.time-welcome{font-size:5vw}.welcome-text{font-size:7vw}.grid-section_text{font-size:5vw}}
+@media (max-width: 113.62em) {
+  .modal-title {
+    font-size: 4vw;
+  }
+}
+@media (max-width: 105.8125em) {
+  .modal-title {
+    font-size: 3vw;
+  }
+  label {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 71.1875em) {
+  .modal-title {
+    font-size: 3vw;
+  }
+  .modal .grid--2-col {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .modal {
+    width: 80vw;
+    height: 70vh;
+  }
+}
+@media (max-width: 49.5625em) {
+  .modal .grid--2-col {
+    grid-template-columns: 1fr;
+  }
+  .modal .grid {
+    gap: 0;
+  }
+  .modal {
+    height: fit-content;
+  }
+  .input {
+    height: 40px;
+  }
+}
+@media (max-width: 56.12em) {
+  .modal-title {
+    font-size: 5vw;
+  }
+  .grid--2-col {
+    grid-template-columns: 1fr;
+  }
+  html {
+    font-size: 60%;
+  }
+}
+@media (max-width: 33.5625em) {
+  .time-welcome {
+    font-size: 5vw;
+  }
+  .welcome-text {
+    font-size: 7vw;
+  }
+  .grid-section_text {
+    font-size: 5vw;
+  }
+  .main {
+    margin: 8rem 4rem 8rem 12rem;
+  }
+}
