@@ -23,9 +23,8 @@ SLIP je platforma koja omogućava ljudima sa invaliditetom lakši bez-kontaktni 
 <br>
 
 ### Kako je SLIP izrađen?
-- SLIP je izrađen koristeći grid, flex i razne druge osnovne tehnologije ugrađene u CSS. 
+- SLIP je izrađen koristeći CSS, HTML i JS. 
 - Korišćeni su grafički elementi koji su isključivo napravljeni za SLIP, a fontovi koji su korišćeni su napravljeni za besplatno korišćenje u komercijalne svrhe.
-- Takođe, SLIP se sastoji i od JS-a.
 - SLIP je napravljen koristeći VS Code IDE
   
 <br>
