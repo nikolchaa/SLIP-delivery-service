@@ -51,5 +51,5 @@ SLIP je platforma koja omogućava ljudima sa invaliditetom lakši bez-kontaktni 
 ------------
 
 <p align="center">
-<img src="https://cdn.discordapp.com/attachments/753225046620897281/959566469115572234/byte-logo.webp" alt="Team BYTE" align="center" width="371px"></p>
+<a href="https://github.com/iMonstaa/SLIP-delivery-service/blob/main/README.txt"><img src="https://cdn.discordapp.com/attachments/753225046620897281/959566469115572234/byte-logo.webp" alt="Team BYTE" align="center" width="371px"></p></a>
 <p align="center">© 2022 Team BYTE. All Rights Reserved.</p>
