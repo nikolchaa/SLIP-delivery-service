@@ -15,6 +15,9 @@
   }
 }
 @media (max-width: 58.25em) {
+  html {
+    font-size: 56.25%;
+  }
   .header {
     width: 80%;
   }
@@ -145,10 +148,7 @@
   }
   .hero-section .main-btn {
     position: unset;
-  }
-  .hero-section .container {
-    align-items: center;
-    justify-content: center;
+    margin-left: 4rem;
   }
 }
 @media (max-width: 30em) {
@@ -184,8 +184,14 @@
   .hero-section .container {
     align-items: flex-start;
   }
+  .hero-section .main-btn {
+    margin-left: 0;
+  }
 }
 @media (max-width: 22.63em) {
+  html {
+    font-size: 50%;
+  }
   .hero-section_intro {
     padding: 0 3.6rem 0 0;
   }
@@ -195,19 +201,13 @@
   }
 }
 @media (max-height: 37.5em) {
-  .hero-subtitle {
-    display: none;
-  }
-  .hero-subtitle {
-    display: none;
-  }
   .hero-section .main-btn {
     bottom: 25%;
   }
 }
 @media (max-height: 41.687em) {
-  .hero-subtitle {
-    display: none;
+  .container {
+    gap: 3rem !important;
   }
 }
 @media (max-height: 50em) {
