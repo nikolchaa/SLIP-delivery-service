@@ -3,7 +3,6 @@ SLIP je platforma koja omogućava ljudima sa invaliditetom lakši bez-kontaktni 
 SLIP je Live na ovom linku: https://slip.netlify.com/
 
 
-
 ### Šta SLIP može (tehnički aspekt)?
 
 - SLIP je povezan sa Firebase bazom podataka. Administratori na Firebase-u mogu iste sekunde da pristupe podacima poslatim u narudžbini.
